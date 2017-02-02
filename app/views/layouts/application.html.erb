@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Liveread</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'http://localhost:8080/angular.css' %> <!-- :/ -->
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <liveread></liveread>
+  </body>
+
+  <%= javascript_pack_tag 'angular' %>
+</html>
