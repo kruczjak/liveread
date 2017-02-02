@@ -29,7 +29,3 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/syst
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
-
-namespace :deploy do
-  after :compile_assets, 'rails webpacker:compile'
-end
